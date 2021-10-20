@@ -1,0 +1,135 @@
+body{
+    background-image: url(fonts_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.details_text{
+    margin-left: 200px;
+    color: white;
+}
+
+canvas{
+    border: 10px greenyellow solid;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 38px black;
+    margin-top: 10.5rem;
+}
+
+video{
+    border: 10px greenyellow solid;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 5.5rem;
+}
+
+.btn-success{
+    font-size: large;
+}
+
+.app{
+    background-color: var(--theme-bg-color);
+    max-width: 1250px;
+    max-height: 860px;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 14px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+code{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+  }
+  .btn-5:hover {
+    color: #ffffff;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #ffffff;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  input::placeholder{
+      color: white;
+      opacity: 0.8;
+  }
+
+  #font{
+      width: 10rem;
+      height: 4rem;
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+
+  option{
+      color: black;
+  }
